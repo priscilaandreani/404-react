@@ -1,0 +1,28 @@
+{/*
+cd 404-react 
+create-react-app pagina
+npm start
+
+criar um pasta de componentes no src da página
+
+>> Props (propriedades)
+    Atributos difrentes entre uma classe e outra 
+    Por exemplo: link (www.placekitten.com)
+    Props são propriedades imutaveis.
+>>State (Estado)
+    Todos os atribuitos que são mutáveis.
+    
+
+Máquina de Estados
+    Barra Lateral 
+    > VISIVEL       > INVISIVEL (Estado Inicial)
+
+
+
+>> Passo a Passo para instanciar um componente:
+    - O Componente é construido;    constructor() //Método constructor() //por exemplo as props são construídas
+    - Preparação para a montagem do componente;  -   componentWillMount()    //prepara o componente para ser mostrado na tela
+    - Render;      render()      //Devolve a estrutura com as variáveis //não pode trocar o estado
+    - Pós-montagem (pós render);      componentDidMount()
+
+
